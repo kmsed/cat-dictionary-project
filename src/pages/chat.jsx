@@ -167,20 +167,6 @@ const chat = () => {
     remove()
   }
 
-  // const eventDelete = (e) => { //삭제
-  //   e.preventDefault()
-  //   console.log(e.target)
-  //   console.log('삭제')
-  //   const subDel = async () => {
-  //     const del = await axios.delete('https://yl10u5ucfh.execute-api.ap-northeast-2.amazonaws.com/',
-  //     {
-  //       id: e.targer.id
-  //     })
-  //     console.log(del)
-  //   }
-  //   subDel()
-  // }
-
   return (
     <Page>
       <PageInner>
